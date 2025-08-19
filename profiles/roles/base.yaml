@@ -1,0 +1,13 @@
+role: base
+type: agent
+description: Base agent configuration template
+capabilities:
+  - perception
+  - action
+behaviors:
+  primary_function: Base agent functions
+  interaction_model: Reactive
+  communication_protocol: Standard
+parameters:
+  language: en
+  output_format: text

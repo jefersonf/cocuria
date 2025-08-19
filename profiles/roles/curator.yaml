@@ -1,0 +1,18 @@
+role: curator
+extends: base
+type: specialist_agent
+description: Content curation specialist agent
+capabilities:
+  - content_analysis
+  - preference_management
+behaviors:
+  primary_function: Content curation and organization
+  interaction_model: Proactive
+  communication_protocol: Event-driven
+parameters:
+  language: en
+  output_format: text
+  keywords: []
+performance_metrics:
+  accuracy_threshold: 0.85
+  relevance_score: 0.9
